@@ -8,9 +8,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
 
 @font-face {
+   font-family: 'asdasd';
+   src: url(../fonts/Demo_Fonts/Fontspring-DEMO-mumford-black.otf) format('truetype')
+}
+
+/* @font-face {
    font-family: 'FuenteCronica';
    src: url(../fonts/Impact-Font/impact.ttf) format('truetype')
-}
+} */
+
 
 body {
    background-color: #a81a0e;
@@ -27,7 +33,8 @@ body {
 }
 
 #divh2 {
-   font-family: 'FuenteCronica', sans-serif;
+   /* font-family: 'FuenteCronica', sans-serif; */
+   font-family: 'asdasd';
    text-shadow: 7px 7px #000000, -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000;
    letter-spacing: 5px;
    margin: 60px;
@@ -35,9 +42,8 @@ body {
    color: white;
    text-align: center;
    animation: toggleOpacity 2s infinite ;
- 
-
 }
+
 @keyframes toggleOpacity {
    0% {
      opacity: 100%;
