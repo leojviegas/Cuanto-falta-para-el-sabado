@@ -46,7 +46,8 @@ body {
 
 #divh2 {
    font-family: 'ImpactBold', sans-serif;
-   font-size: 100px;
+   font-size: 10vh;
+   /* font-size: 100px; */
    letter-spacing: 5px;
    color: white;
    text-shadow: 7px 7px #000000, -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000;
